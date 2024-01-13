@@ -10,6 +10,7 @@ return require('packer').startup({ function(use)
     use 'jpalardy/vim-slime'
 
     use 'nvim-treesitter/nvim-treesitter'
+    use 'nvim-treesitter/playground'
     use 'nvim-treesitter/nvim-treesitter-context'
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp'
