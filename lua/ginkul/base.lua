@@ -33,6 +33,8 @@ vim.keymap.set('n', '<leader>cc', vim.cmd.cclose)
 vim.keymap.set('n', '<leader>cj', vim.cmd.cnext)
 vim.keymap.set('n', '<leader>ck', vim.cmd.cprevious)
 
+vim.keymap.set('n', '<leader>h', '<cmd>nohl<cr>')
+
 vim.api.nvim_create_autocmd({ 'BufEnter', 'BufNewFile' }, {
   pattern = '*.pgsql',
   command = 'set filetype=pgsql | set ft=sql'
