@@ -1,5 +1,5 @@
 require('nvim-treesitter.configs').setup {
-    ensure_installed = { "lua", "rust", "elixir" },
+    ensure_installed = { "lua", "rust", "elixir", "python", "c", "julia", "xml", "json" },
     highlight = {
         enable = true
     },
